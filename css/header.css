@@ -1,0 +1,87 @@
+#top-bar {
+    line-height: 48px;
+    height: 48px;
+}
+
+header {
+    background: white url(../image/background_hero.png) no-repeat center top;
+    background-size: cover;
+    padding-top: 48px;
+    height: 1080px;
+}
+
+.container { 
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+header .container > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo */
+    header #logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header #logo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* End of Logo */
+
+/* Navigation bar */
+    header nav {
+        margin-left: 167px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        height: 48px;
+    }
+
+    header nav ul li a{
+        display: inline-block;
+        font-size: 20px;
+        color: #111111;
+        line-height: 48px;
+        padding: 0px 16px;
+    }
+
+    header button {
+        font-size: 18px;
+        height: 48px;
+        padding: 0px 39px;
+        border: 2px solid #c04ae2;
+        border-radius: 10px;
+        background: transparent;
+        cursor: pointer;
+        color: #111111;
+        font-weight: bold;
+        margin: 0px 12px;
+    }
+/* End of Navigation bar */
+
+/* Socials on header */
+    #social-header{
+        font-size: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #social-header li a {
+        display: inline-block;
+        height: 25px;
+    }
+
+    #social-header li{
+        padding: 0px 5px;
+        height: 25px;
+    }
+/* End of Socials on header */

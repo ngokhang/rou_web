@@ -1,0 +1,76 @@
+#introduction {
+    background: white url(../image/background_2.png) no-repeat center top;
+    background-size: cover;
+    height: 3583px;
+}
+
+#introduction .title {
+    padding-top: 145px;
+    text-align: center;
+}
+
+#introduction .title h3 {
+    font-size: 24px;
+    line-height: 72px;
+    color: #c04ae2;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+}
+
+#introduction .title p {
+    font-size: 60px;
+    line-height: 90px;
+    color: #111111;
+    font-weight: 400;
+    margin-bottom: 108px;
+}
+
+#introduction .tags {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#introduction .tags > div {
+    width: 370px;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 223px 44px 84px 44px;
+    background-repeat: no-repeat;
+    background-position: center top 93px;
+}
+
+#introduction .tags > div h3 {
+    font-size: 28px;
+    line-height: 42px;
+    color: #111111;
+    
+}
+
+#introduction .tags > div p {
+    font-size: 19.5px;
+    line-height: 28px;
+    color: #5e5858;
+    margin-top: 21px;
+}
+
+#introduction .tags > div:nth-child(1){
+    border-color: #fcd7df;
+    background-image: url(/image/anchor.png);
+}
+
+#introduction .tags > div:nth-child(2) {
+    border-color: #c9f3e2;
+    background-image: url(/image/archive.png);
+}
+
+#introduction .tags > div:nth-child(3) {
+    border-color: #f2d5ba;
+    background-image: url(/image/user.png);
+}
+
+#intro {
+    padding-bottom: 91px;
+}

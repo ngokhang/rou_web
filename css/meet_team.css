@@ -1,0 +1,115 @@
+#meet-team {
+    background: white url(../image/bg_4.png) no-repeat center top;
+    background-size: cover;
+    height: 2082px;
+}
+
+#meet-team .title {
+    padding-top: 205px;
+    text-align: center;
+}
+
+#meet-team .title h3 {
+    font-size: 24px;
+    line-height: 72px;
+    color: var(--heading);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#meet-team .title p {
+    margin-top: 8px;
+    font-size: 60px;
+    line-height: 90px;
+    color: var(--text_black);
+}
+
+#meet-team #partners {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#meet-team #partners > div h3 {
+    font-size: 24px;
+    line-height: 48px;
+    color: var(--text_black);
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+#meet-team #partners > div h4 {
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--text_gray);
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+#meet-team #partners > div:nth-child(even) {
+    transform: translateY(70px);
+}
+
+#meet-team #testimonial {
+    margin-top: 179px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div 1 left */
+#meet-team #testimonial div:nth-child(1) {
+    max-width: 570px;
+    margin-top: 192px;
+}
+
+#meet-team #testimonial div:nth-child(1) h3 {
+    font-size: 24px;
+    line-height: 72px;
+    color: var(--heading);
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+
+#meet-team #testimonial div:nth-child(1) p:nth-child(2) {
+    font-size: 58px;
+    line-height: 90px;
+    color: var(--text_black);
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+#meet-team #testimonial div:nth-child(1) p:nth-child(3) {
+    font-size: 23px;
+    line-height: 36px;
+    color: var(--text_gray);
+    margin-top: 47px;
+}
+
+#meet-team #testimonial div:nth-child(1) h4 {
+    font-size: 24px;
+    line-height: 48px;
+    color: var(--text_black);
+    margin-top: 49px;
+    position: relative;
+    padding-left: 40px;
+}
+
+#meet-team #testimonial div:nth-child(1) h4::before {
+    content: ' ';
+    display: inline-block;
+    width: 19px;
+    height: 2px;
+    background-color: #332e98;
+    position: absolute;
+    left: 0;
+    bottom: 46%;
+}
+
+#meet-team #testimonial div:nth-child(1) span {
+    font-size: 18px;
+    line-height: 36px;
+    color: #adb0ba;
+    font-weight: normal;
+    margin-left: 40px;
+}

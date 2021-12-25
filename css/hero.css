@@ -1,0 +1,46 @@
+#hero { 
+    margin-top: 136px;
+    margin-bottom: 263px;
+}
+
+#hero .hero-content {
+    width: 600px;
+    color: #111111;
+}
+
+#hero .hero-content h2 {
+    font-size: 90px;
+    line-height: 108px;
+    font-weight: normal;
+}
+
+#hero .hero-content p {
+    margin-top: 47px;
+    font-size: 30px;
+    line-height: 42px;
+    color: #5e5858;
+}
+
+#hero .hero-content a {
+    margin-top: 54px;
+    display: block;
+    max-width: 241px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 72px;
+    color: white;
+    font-weight: bold;
+    background-color: #c04ae2;
+    border-radius: 8px;
+}
+
+#hero #hero-image {
+    position: relative;
+    flex-grow: 1;
+}
+
+#hero #hero-image img{
+    position: absolute;
+    top: 0;
+    left: 20%;
+}

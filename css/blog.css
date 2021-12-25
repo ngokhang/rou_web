@@ -1,0 +1,128 @@
+#blog {
+    height: 1021px;
+    background: url(../image/blog_contact.png) no-repeat center top;
+    background-size: cover;
+}
+
+#blog .title {
+    padding-top: 168px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog .title h3 {
+    font-size: 24px;
+    line-height: 72px;
+    color: var(--heading);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#blog .title p {
+    font-size: 60px;
+    line-height: 90px;
+    color: #111111;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#blog .title div:last-child {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#blog .title div:last-child a {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--heading);
+}
+
+#comments {
+    margin-top: 105px;
+    display: flex;
+    gap: 0px 30px;
+}
+
+#comments > div:hover {
+    background-color: white;
+    transition: all 0.4s ease-in;
+}
+
+#comments > div {
+    border: 2px solid #b3bed1;
+    border-radius: 8px; 
+    padding: 41px 52px 50px 40px;
+    transition: all 0.4s ease-in;
+}
+
+#comments > div h4 {
+    color: #111111;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+#comments > div p {
+    font-size: 19px;
+    line-height: 32px;
+    color: #5e5858;
+    margin-top: 29px;
+}
+
+#comments .app {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fe6686;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comments .design {
+    font-size: 18px;
+    line-height: 30px;
+    color: #54d6a1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comments .research {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fe9a3f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.commentor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+.commentor div:first-child {
+    display: flex;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentor div:last-child {
+    display: flex;
+    gap: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.commentor div:last-child img {
+    transition: all 0.4s ease-in;
+}
+.commentor div:last-child img:hover {
+    background-color: red;
+    border-radius: 50%;
+    transition: all 0.4s ease-in;
+}

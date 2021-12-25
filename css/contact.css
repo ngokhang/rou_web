@@ -1,0 +1,179 @@
+#contact {
+    background: white url(../image/contact_bg.png) no-repeat center top;
+    background-size: cover;
+    height: 1409px;
+}
+
+#contact .title {
+    padding-top: 168px;
+    text-align: center;
+}
+
+#contact .title h3 {
+    font-size: 24px;
+    line-height: 72px;
+    color: var(--heading);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#contact .title p {
+    margin-top: 6px;
+    font-size: 60px;
+    line-height: 90px;
+    color: var(--text_black);
+}
+
+#contact #methods-contact {
+    margin-top: 100px;
+}
+
+#contact #methods-contact form p {
+    font-size: 42px;
+    line-height: 54px;
+    color: #111111;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 470px;
+    gap: 20px 0;
+}
+
+#username {
+    margin-top: 26px;
+}
+
+form input[type="text"], 
+form input[type="email"] {
+    display: block;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 26px 30px;
+    box-shadow: 0px 18px 48px rgba(0,0,0,0.06);
+    border-radius: 8px;
+}
+
+form textarea {
+    display: block;
+    background-color: #fff;
+    font-size: 20px;
+    height: 214px;
+    padding: 26px 30px;
+    box-shadow: 0px 18px 48px rgba(0,0,0,0.06);
+    border-radius: 8px;
+}
+
+form button {
+    display: block;
+    width: 240px;
+    background-color: var(--heading);
+    font-size: 24px;
+    line-height: 72px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#methods-contact {
+    display: flex;
+}
+
+#methods-contact .information-contact {
+    max-width: 470px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+
+.information-contact > p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #5e5858;
+}
+
+.information-contact div {
+    max-width: 300px;
+}
+
+.information-contact .phone {
+    display: flex;
+    gap: 0px 20px;
+}
+
+.information-contact .phone div:first-child {
+    content: " ";
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../image/phone_number.png) #fe6686 no-repeat center center;
+}
+
+.information-contact .phone div:last-child {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+.information-contact .email {
+    display: flex;
+    gap: 0px 20px;
+}
+
+.information-contact .email div:first-child {
+    content: " ";
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../image/mail.png) #54d6a1 no-repeat center center;
+}
+
+.information-contact .email div:last-child {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.information-contact .location {
+    display: flex;
+    gap: 0px 20px;
+}
+
+.information-contact .location div:first-child {
+    content: " ";
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../image/location.png) #fe9a3f no-repeat center center;
+}
+
+.information-contact .location div:last-child {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+#methods-contact .information-contact {
+    display: flex;
+    max-width: 470px;
+    margin-left: 230px;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 40px;
+}
